@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Proyecto Final acerca del Protocolo y Trabajo Terminal.">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Proyecto Final</title>
+    <title>Informacion de Protocolo</title>
 
-    <link rel="stylesheet" href="/css/styles_main.css">
+    <link rel="stylesheet" href="/css/styles_infoP.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="http://www.escom.ipn.mx/">
                     <img src="/img/escudoESCOM.png" width="40" height="30" alt="">ESCOM</a>
@@ -52,62 +51,39 @@
           </nav>
     </header>
 
-    <main>
-      
-      <div class="carousel-principal">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://www.escom.ipn.mx/posgrado/img/indice/diapositivas/mural.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>TRABAJO TERMINAL</h5>
-                <p>Encuentra la información correcta para poder completar tu tramite de la mejor manera.</p>
-                <div class="slider-btn">
-                  <button type="button" class="btn btn-1 btn-sm">Inscribe Procolo</button>
-                  <button type="button" class="btn btn-2 btn-sm">Da seguimiento a tu proceso</button>
+    <main data-bs-spy="scroll" data-bs-offset="15" data-bs-target="#myScrollspy">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3" id="myScrollspy">
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action active" href="#section1">Section One</a>
+                        <a class="list-group-item list-group-item-action" href="#section2">Section Two</a>
+                        <a class="list-group-item list-group-item-action" href="#section3">Section Three</a>
+                    </div>
                 </div>
-
-              </div>
+                <div class="col-sm-9">
+                    <div id="section1">
+                        <h2>Section One</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque iusto quam, autem blanditiis provident labore illo delectus recusandae dicta placeat. Ut pariatur soluta facere amet nihil odit provident autem.</p>
+                    </div>
+                    <hr>
+                    <div id="section2">
+                        <h2>Section Two</h2>
+                        <p>This is section two content...</p>
+                    </div>
+                    <hr>
+                    <div id="section3">
+                        <h2>Section Three</h2>
+                        <p>This is section three content...</p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item">
-              <img src="http://www.contrareplica.mx/uploads/2019/08/14/normal/c8be3b0373b45bba54498a22d53ad768.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>¿Qué es el Trabajo Terminal?</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://live.staticflickr.com/7288/16468577541_86e857237b_b.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>no se que mas ahorita pienso</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-      </div>
-      
-      
+    
     </main>
 
-    
-    
- <!--https://picsum.photos/200/300-->
 
-
+    <script src="/js/protocoloInfo.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

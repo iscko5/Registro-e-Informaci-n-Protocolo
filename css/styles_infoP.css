@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  } 
+  
+html {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+body {
+    background-color: rgb(51, 167, 235);
+    position: relative;
+  }
+
+  .dropdown-menu{
+      background-color: rgba(11, 84, 180, 0.979);
+      font-style: italic;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+ .dropdown-item:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
